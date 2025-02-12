@@ -1,0 +1,35 @@
+*{
+  font-family: "Roboto"; 
+  font-size: 14px;
+  color: rgb(58, 58, 58); 
+}
+h1{
+    font-size: 30px;
+}
+p span{
+    color: red;
+    background-color: rgb(222, 218, 218);
+}
+#first_table{
+    text-align: center;
+    border: 3px solid green;
+    width: 800px;
+    margin-bottom: 25px;
+}
+div{
+    padding: 15px;
+    background-color: rgb(234, 231, 231);
+    margin-right: 15cm;
+}
+h2{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20;
+}
+#second_table{
+    background-color: white;
+    width: 750px;
+    border-left: 5px solid green;
+    padding: 15px;
+}
+

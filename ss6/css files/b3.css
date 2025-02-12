@@ -1,0 +1,67 @@
+#table1{
+    
+    background-color:rgb(40, 44, 53);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    height: 65px;
+    width: 1900px;
+    font-weight: bold;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 30px;
+}
+#body{
+    
+background-color:rgb(240, 240, 240);
+padding: 20px;
+
+}
+#body2{
+height: 150px;
+padding: 10px;
+}
+#footer{
+    background-color: rgb(237, 236, 236);
+    text-align: center;
+    height: 10px;
+    padding: 30px;
+}
+img{
+    
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+.nav1{
+    
+    color: white;
+    text-decoration: solid;
+}
+#table2{
+   width: 820px;
+}
+
+#info{
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: solid;
+}
+button{
+width: 320px;
+height: 60px;
+color: white;
+background-color: rgb(40, 44, 53);
+border-style: hidden;
+border-radius: 8px;
+}
+h3{
+font-size: 25px;
+}
