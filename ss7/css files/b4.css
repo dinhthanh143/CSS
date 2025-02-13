@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  
+    width: 400px;
+    
+}
+h3{
+    font-size: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+   
+}
+#cell1{
+    margin-bottom: 10px;
+    border-left: 6px solid rgb(255, 111, 0);
+    height: 25px;
+}
+.spe-cells{
+font-weight: bold;
+
+}
+.spe-cells2{
+    border-bottom: 1px solid rgb(205, 202, 202);
+    
+ }
+ span{
+    font-size:30px ;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom:275px ;
+    left: 20px;
+ }

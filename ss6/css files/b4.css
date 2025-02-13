@@ -13,6 +13,8 @@ header{
 }
 #box1{
     border: 2px solid rgb(204, 204, 204);
+   
+   
     
 }
 table{
@@ -31,4 +33,8 @@ footer{
     color: white;
     height: 40px;
     padding: 20px;
+}
+.box{
+    position: relative;
+    bottom: 250px;
 }

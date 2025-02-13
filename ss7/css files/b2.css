@@ -1,0 +1,18 @@
+p{
+    color: #28166a;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f0f4;
+}
+.box{
+    margin-right: 7px;
+    background-color: #ffffff;
+    color: #c72c34;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #bdbcc1;
+    border-radius: 8px;
+    
+}

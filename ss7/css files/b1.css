@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 40px;
+    color: rgb(28, 28, 103);
+    margin-top: 0;
+}
+table{
+    position: relative;
+    bottom: 20px;
+}
+#button1{
+    background-color: rgb(192, 41, 41);
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-size: 15px;
+    border: hidden;
+    border-radius: 8px;
+}
+#button2{
+    margin-left: 8px;
+    height: 45px;
+    width: 180px;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: 1px solid rgb(198, 197, 197);
+}
