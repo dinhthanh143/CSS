@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.blog-container{
+    width: 418px;
+    margin-left: 20px;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.blog-container h3{
+    border-left: 8px solid orange;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pos-title {
+    padding: 25px;
+    position: absolute;
+    top: 448px;
+    left: 0;
+    background-color: black;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+}
+.pos-title a{
+    font-size: 27px;
+    text-decoration: none ;
+    color: white;
+}
+.blog-container ul li{
+    padding: 18px;
+    border-bottom: 2px solid rgb(207, 207, 207);
+    color: white;
+}
+.blog-container ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
