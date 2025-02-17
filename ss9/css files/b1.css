@@ -1,0 +1,19 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    width: 800px;
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 160, 221);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
