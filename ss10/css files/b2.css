@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-weight: lighter;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+section{
+    
+    display: flex;
+    gap: 15px;
+    height: 350px;
+}
+.title{
+    width: 80px;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(235, 238, 243); 
+    
+}
+img{
+    width: 200px;
+    height: 180px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
