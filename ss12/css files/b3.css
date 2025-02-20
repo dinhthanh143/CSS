@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(180, 176, 176);
+}
+form{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid rgb(173, 173, 173);
+    margin: 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 1px 0px;
+}
+.btn{
+    background-color: green !important;
+}
+.form-header{
+    border-bottom: 1px solid rgb(205, 202, 202);
+   font-size: 20px;
+   font-weight: bold;
+}
+form div{
+    background-color: white;
+}
+form label{
+    background-color: white;
+}
+body{
+    background-color: rgb(180, 176, 176) !important;
+}
+i{
+    background-color: white;
+    scale: 2;
+    position: relative;
+    bottom: 66px;
+    left: 441px;
+    color: gray;
+}

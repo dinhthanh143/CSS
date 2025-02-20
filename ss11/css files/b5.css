@@ -172,7 +172,7 @@ aside {
 
     .icon {
         background-color: rgb(159, 75, 75);
-        
+        box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -180,6 +180,7 @@ aside {
     }
     
     i {
+        box-sizing: border-box;
         width: 100%;
         font-size: 100%;
     }
