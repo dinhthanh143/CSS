@@ -1,8 +1,162 @@
-.col{
-    background-color: pink;
-    border: 1px solid black;
+:root {
+    --bg-color: #0A0A0A;
+    --btn-color: #D3E97A;
+    --heading-color: #FFFFFF;
+    --text-color: #C7C7C7;
+    --primary-font: "Bebas Neue";
+    --secondary-font: "Manrope";
 }
-.row{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+nav {
+    background-color: var(--bg-color);
+    padding: 24px 60px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .mobile-menu {
+    display: none;
+    
+}
+
+ .logo {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+ .main-menu {
+    display: flex;
+    gap: 32px;
+}
+
+ .main-menu li {
+    list-style-type: none;
+}
+.introduction span{
+    font-family: var(--primary-font);
+    font-size: 101px;
+    line-height: 90%;
+    text-align: left;
+    color: #FFFFFF;
+}
+.introduction p{
+    font-size: 18px;
+}
+.introduction{
+    margin-left: 108px;
+    margin-top: 190px;
+    width: 544px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.introduction p{
+    padding-bottom: 22px;
+}
+.contact{
+    width: 187px;
+    height: 54px;
+    background-color: #D3E97A;
+    color: #0A0A0A;
+    border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+   font-size: 16px;
+   border: none;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+  }
+  .link1{
+    width: 54px;
+    height: 54px;
+    background-color: #222222;
+    border-radius: 100%;
+  }
+  .link1 img{
+    padding: 14px;
+  }
+
+.link2{
+    width: 54px;
+    height: 54px;
+    background-color: #222222;
+    border-radius: 100%;
+  
+  }
+  .link2 img{
+    padding: 14px;
+  }
+
+
+  .intro-footer{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+   
+  }
+  .profile-img{
+   
+  }
+  .page1{
+    display: flex;
+  }
+  .profile-img{
+    margin-left: 80px;
+    margin-right: 108px;
+    margin-top: 30px;
+    width: 600px;
+    height: 700px;
+    border-radius: mixed;
+  }
+
+  
+
+
+@media screen and (max-width:768px) {
+    .mobile-menu {
+        display: flex;
+    }
+    
+     .logo {
+        font-family: var(--primary-font);
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+    
+     .main-menu {
+        display: flex;
+        gap: 32px;
+    }
+
+   
 }
