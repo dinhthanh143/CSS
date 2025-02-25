@@ -124,12 +124,7 @@ nav {
     height: 100%;
    
   }
-  .profile-img{
-   
-  }
-  .page1{
-    display: flex;
-  }
+ 
   .profile-img{
     margin-left: 80px;
     margin-right: 108px;
@@ -137,6 +132,64 @@ nav {
     width: 600px;
     height: 700px;
     border-radius: mixed;
+    margin-bottom: 80px;
+  }
+  .page1{
+    display: flex;
+    border-bottom: 1px solid rgb(201, 199, 199);
+  }
+  .page2{
+    margin-left: 108px;
+    margin-right: 108px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .page2 .main-title{
+    width: 600px;
+    height: 138px;
+   
+  }
+  .main-title h1{
+    font-size: 76px;
+    font-family: var(--primary-font);
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  .main-title p{
+    font-size: 18px;
+  }
+  .content{
+    margin-top: 80px;
+  }
+  .img-container img{
+    width: 486px;
+    height: 374px;
+  }
+  .img-container{
+    width: 600px;
+    height: 600px;
+    background-color: #1A1A1A;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+   border-radius: 12px;
+   position: relative;
+  }
+  .img-container span{
+position: absolute;
+color: #FFFFFF;
+text-align: center;
+background-color: #0A0A0A;
+border-radius: 100px;
+width: 145px;
+height: 37px;
+font-size: 14px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+padding-right: 16px;
+top: 16px;
+left: 16px;
   }
 
   
